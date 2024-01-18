@@ -46,10 +46,6 @@ JATE (Just Another Text Editor) is a Progressive Web App (PWA) text editor built
 
    The app will be accessible at `http://localhost:3000` by default.
 
-### Deployment
-
-To deploy the project, you can use hosting services like Netlify, Vercel, or GitHub Pages. Ensure your hosting provider supports PWAs.
-
 ## Contributing
 
 If you'd like to contribute to JATE, feel free to open an issue, create a pull request, or reach out to the project maintainers.
