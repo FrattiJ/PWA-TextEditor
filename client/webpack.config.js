@@ -22,16 +22,16 @@ module.exports = () => {
         template: './index.html',
       }),
       new WebpackPwaManifest({
-        name: 'Your PWA Name',
-        short_name: 'PWA',
-        description: 'Your PWA description',
+        name: 'Just Another Text Editor',
+        short_name: 'Jate',
+        description: 'This is PWA text editor',
         background_color: '#ffffff',
         theme_color: '#000000',
         start_url: '/',
         display: 'standalone',
         icons: [
           {
-            src: path.resolve('src/images/logo.png'),
+            src: path.resolve('./src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
           },
